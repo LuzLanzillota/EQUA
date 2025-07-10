@@ -1,0 +1,26 @@
+body {
+margin: 0;
+height: 100vh;
+background-color: black;
+
+}
+.fondo-inicio img{
+    width: 100%;
+}
+
+.fondo{
+    display: flex;
+    justify-content: center;
+    margin-top: 100px;
+}
+.fondo-2{
+    display: flex;
+    justify-content: center;
+    margin-top: 85px;
+}
+.fondo-2 img{
+    width: 100%;
+}
+.fondo img{
+width: 50%;
+}

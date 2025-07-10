@@ -1,0 +1,95 @@
+.footer {
+    background-color: #000;
+    color: white;
+    padding: 40px 20px;
+    font-family: sans-serif;
+}
+
+.footer-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    max-width: 2000px;
+    margin: auto;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.footer-left {
+    flex: 1;
+}
+
+.footer-left p {
+    font-size: 1.2rem;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.contact-btn {
+    background-color: white;
+    color: black;
+    padding: 8px 20px;
+    border: none;
+    border-radius: 30px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.footer-center {
+  display: none; /* ocultamos el logo central actual */
+}
+
+.footer-logo {
+  width: 500px;
+margin-right: -200px;
+}
+
+.footer-right {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    justify-content: space-between;
+    gap: 10px;
+    height: 100%;
+}
+
+.footer-links {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.footer-link {
+    border: 1px solid white;
+    border-radius: 30px;
+    padding: 5px 15px;
+    color: white;
+    text-decoration: none;
+    font-size: 0.9rem;
+    transition: 0.3s ease;
+}
+
+.footer-link:hover {
+    background-color: white;
+    color: black;
+}
+
+
+.footer-bottom{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.texto{
+    font-size: 0.8rem;
+    margin-top: 20px;
+    text-align: right;
+}
+.footer-text {
+    text-align: right;
+    color: white;
+    width: 80vh;
+    font-size: 1rem;
+    flex: 1;
+}
