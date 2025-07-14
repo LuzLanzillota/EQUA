@@ -16,10 +16,8 @@ const Hero = () => {
                     </div>
                 <div className='al-lado'> <p className="descripcion">
                     Somos una agencia de diseño multimedial especializada en diseño y comunicación,
-                    ofrecemos soluciones creativas y personalizadas :)
-                </p>
-
-
+                    ofrecemos soluciones creativas y personalizadas :)</p>
+                
                     </div>
 
             </div>

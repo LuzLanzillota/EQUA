@@ -2,14 +2,16 @@
 
 /* Estilo del header */
 body {
-    font-family: Poppins;
-    
+    font-family: 'Sora', sans-serif;
+    font-weight: 600;
+
 }
 
 header {
     display: flex;
     align-items: center;
-    background-color: #000; /* mejor mover esto aquí */
+    background-color: #000;
+    /* mejor mover esto aquí */
     padding: 10px 20px;
 
 }
@@ -25,7 +27,7 @@ header img {
 .navbar {
     display: flex;
     align-items: center;
-margin-left: 580px;
+    margin-left: 580px;
 
 }
 

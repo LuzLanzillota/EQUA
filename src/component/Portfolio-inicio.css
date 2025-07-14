@@ -1,0 +1,62 @@
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.header-port {
+    margin-left: 80px;
+    margin-bottom: 80px;
+}
+
+h1 {
+    font-family: 'Sora', sans-serif;
+    font-weight: 800;
+    font-size: 48px;
+    color: #fff;
+    margin: 0;
+}
+
+.header-port p {
+    font-family: 'Sora', sans-serif;
+    font-size: 18px;
+    color: #fff;
+    margin-top: 10px;
+}
+
+.formas {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 80px;
+    flex-wrap: wrap;
+    padding: 0 80px;
+}
+
+.forma1 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    max-width: 220px;
+}
+
+.forma1 img {
+    width: 120px;
+    margin-bottom: 40px;
+}
+
+.forma1 h2 {
+    font-family: 'Sora', sans-serif;
+    font-weight: 800;
+    color: #fff;
+    font-size: 22px;
+    margin-bottom: 20px;
+}
+
+.forma1 p {
+    font-family: 'League Spartan', sans-serif;
+    font-size: 16px;
+    color: #fff;
+    margin: 0;
+}
