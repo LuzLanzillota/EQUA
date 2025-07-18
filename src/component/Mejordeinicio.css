@@ -1,0 +1,55 @@
+.scroll-container {
+    display: flex;
+    gap: 20px;
+    overflow-x: auto;
+    padding: 20px;
+    scroll-behavior: smooth;
+    cursor: grab;
+}
+
+.scroll-container.dragging {
+    cursor: grabbing;
+}
+
+.proyecto-card {
+    min-width: 800px;
+    background: #000000;
+    border-radius: 12px;
+    padding: 10px;
+}
+
+.h3-mejor {
+    font-family: "Sora", sans-serif;
+    font-weight: 800;
+    font-size: 20px;
+    margin-top: 5px;
+}
+
+.pe {
+    margin-top: 5px;
+}
+
+.proyecto-card img {
+    width: 100%;
+    border-radius: 8px;
+    object-fit: cover;
+}
+
+.mejorreturn {
+    margin-top: 1500px;
+}
+.titulo-rol{
+    font-family: "Sora", sans-serif;
+    font-weight: 800;
+    font-size: 50px;
+    margin-left: 130px;
+    color: rgb(255, 255, 255);
+    width: 600px;
+}
+.p-rol{
+    margin-left: 130px;
+    color: rgb(255, 255, 255);
+    font-family: 'League Spartan', sans-serif;
+    font-weight: 200;
+    font-size: 28px;
+}

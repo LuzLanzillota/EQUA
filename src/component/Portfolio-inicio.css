@@ -1,7 +1,9 @@
+@import url('https://fonts.googleapis.com/css2?family=League+Spartan:wght@100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Sora:wght@100..800&display=swap');
 body {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    background-color: #000;
 }
 
 .header-port {
@@ -9,7 +11,7 @@ body {
     margin-bottom: 80px;
 }
 
-h1 {
+.h1-header-port {
     font-family: 'Sora', sans-serif;
     font-weight: 800;
     font-size: 48px;
@@ -20,6 +22,7 @@ h1 {
 .header-port p {
     font-family: 'Sora', sans-serif;
     font-size: 18px;
+    font-weight: 400;
     color: #fff;
     margin-top: 10px;
 }
@@ -28,8 +31,8 @@ h1 {
     display: flex;
     justify-content: center;
     align-items: flex-start;
-    gap: 80px;
     flex-wrap: wrap;
+    gap: 60px 30px; /* Espaciado vertical y horizontal */
     padding: 0 80px;
 }
 
@@ -38,25 +41,44 @@ h1 {
     flex-direction: column;
     align-items: center;
     text-align: center;
-    max-width: 220px;
+    max-width: 400px;
+    padding: 20px;
+    border-radius: 16px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    cursor: pointer;
 }
+
+.forma1:hover {
+    transform: scale(1.05);
+    box-shadow: 0 15px 25px rgba(255, 255, 255, 0.1);
+    background-color: rgba(255, 255, 255, 0.05); /* opcional, efecto sutil */
+}
+
 
 .forma1 img {
-    width: 120px;
-    margin-bottom: 40px;
-}
-
-.forma1 h2 {
-    font-family: 'Sora', sans-serif;
-    font-weight: 800;
-    color: #fff;
-    font-size: 22px;
+    width: 160px;
+    height: 156px;
+    object-fit: contain;
     margin-bottom: 20px;
 }
 
+
+.forma1 h2 {
+    font-family: 'Sora', sans-serif;
+    font-weight: 700;
+    font-size: 24px;
+    color: #fff;
+    margin-bottom: 16px;
+}
+
 .forma1 p {
-    font-family: 'League Spartan', sans-serif;
+    font-family: 'Sora', sans-serif;
+    font-weight: 400;
     font-size: 16px;
+    line-height: 1.4;
     color: #fff;
     margin: 0;
+}
+.todo{
+    margin-bottom: 100px;
 }

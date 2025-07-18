@@ -12,9 +12,11 @@ function NavBar(props) {
             <nav className="navbar">
                 <ul>
                     <li><NavLink to="/">HOME</NavLink></li>
-                    <li><NavLink to="/PORTFOLIO">PORTFOLIO</NavLink></li>
-                    <li><NavLink to="/QUIENESSOMOS">QUIENES SOMOS</NavLink></li>
-                    <li><NavLink to="/CONTACTO">CONTACTO</NavLink></li>
+                    <li><NavLink to="/portfolio">PORTFOLIO</NavLink></li>
+                    <li><NavLink to="/quienessomos">QUIENES SOMOS</NavLink></li>
+                    <li><NavLink to="/contacto">CONTACTO</NavLink></li>
+                    <li><NavLink to="/branding"></NavLink></li>
+                    <li><NavLink to="/diseñoweb"></NavLink></li>
                 </ul>
 
             </nav>

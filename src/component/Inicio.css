@@ -10,11 +10,14 @@ font-family: 'Sora', sans-serif;
     width: 100%;
 }
 
-.fondo{
-    display: flex;
-    justify-content: center;
-    margin-top: 100px;
+.fondo {
+    width: 100%;
+    overflow: hidden;
+    position: relative;
+    z-index: 1;
+    margin-top: -20px;
 }
+
 .fondo-2{
     display: flex;
     justify-content: center;
@@ -32,4 +35,14 @@ font-family: 'Sora', sans-serif;
 }
 .fondo img{
 width: 50%;
+}
+.cartasinicio{
+    margin-top: -2300px;
+}
+.prot{
+    margin-top: 220px;
+    margin-bottom: 200px;
+}
+.acor{
+    margin-bottom: 300px;
 }

@@ -1,0 +1,277 @@
+:root {
+    --azul: #2f2fff;
+    --verde: #d6ff00;
+    --negro: #000;
+    --blanco: #fff;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    background-color: var(--negro);
+    color: var(--blanco);
+    font-family: 'League Spartan', sans-serif;
+}
+
+/* Encabezado */
+.quienes-somos {
+    max-width: 1500px;
+    margin: 0 auto;
+    padding: 40px 20px;
+}
+
+.equipo {
+    width: 100%;
+    border-radius: 20px;
+    display: block;
+}
+
+.descripcion-logo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 120px;
+    margin-bottom: 100px;
+    gap: 10%;
+}
+
+.texto {
+    max-width: 500px;
+}
+
+.h2 {
+    font-family: "Sora", sans-serif;
+    font-weight: 800;
+    font-size: 50px;
+    margin-bottom: 20px;
+}
+
+.p {
+    font-family: 'League Spartan', sans-serif;
+    font-weight: 300;
+    font-size: 28px;
+    line-height: 26px;
+}
+
+.logo {
+    width: 380px;
+}
+
+/* Integrantes scroll horizontal */
+.integrantes-scroll {
+    padding: 60px 80px;
+}
+
+.scroll-container {
+    display: flex;
+    gap: 30px;
+    overflow-x: auto;
+    scroll-behavior: smooth;
+    cursor: grab;
+    user-select: none;
+    -webkit-overflow-scrolling: touch;
+    scrollbar-width: none;
+}
+
+.scroll-container::-webkit-scrollbar {
+    display: none;
+}
+
+.scroll-container.dragging {
+    cursor: grabbing;
+}
+
+.integrante {
+    flex: 0 0 auto;
+    background-color: var(--blanco);
+    color: var(--negro);
+    border-radius: 20px;
+    width: 400px;
+    text-align: center;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.15);
+    overflow: hidden;
+    transition: transform 0.2s ease;
+}
+
+/* Cabeceras de tarjetas */
+.nombres {
+    padding: 30px;
+    text-align: left;
+    border-radius: 20px;
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.32);
+}
+
+.camila {
+    background-color: #4E2DCA;
+}
+
+.luz {
+    background-color: #D4FF33;
+}
+
+.malena {
+    background-color: #EA6AFF;
+}
+
+.lucia {
+    background-color: #ADE6ED;
+}
+
+.rocio {
+    background-color: #EC3D01;
+}
+
+.federica {
+    background-color: #2524F5;
+}
+
+h3 {
+    font-family: 'League Spartan', sans-serif;
+    font-weight: 800;
+    font-size: 30px;
+    margin: 0;
+    line-height: 1.2;
+}
+
+.integrante p {
+    font-family: 'League Spartan', sans-serif;
+    font-weight: 300;
+    font-size: 24px;
+    margin: 5px 0 0;
+}
+
+.integrante img {
+    width: 250px;
+    height: auto;
+    margin: 50px auto 40px;
+}
+
+/* POR QUÉ EQUA */
+.porque {
+    background-color: #1a1a1a;
+    padding: 60px 20px;
+    border-radius: 20px;
+    max-width: 1300px;
+    margin: 100px auto;
+}
+
+.porque h2 {
+    text-align: center;
+    margin-bottom: 70px;
+}
+
+.valores {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.valor {
+    max-width: 300px;
+    text-align: center;
+}
+
+.valor img {
+    height: 70px;
+    margin-bottom: 10px;
+}
+
+@media (max-width: 1024px) {
+
+    h2 {
+        font-size: 38px;
+    }
+
+    p {
+        font-size: 25px;
+        line-height: 24px;
+    }
+
+
+    .descripcion-logo {
+        margin-top: 90px;
+        margin-bottom: 10px;
+        padding: 0px 60px;
+    }
+
+    .logo {
+        width: 310px;
+    }
+
+    .porque {
+        max-width: 920px;
+    }
+
+    .valores {
+        display: flex;
+        justify-content: space-around;
+        flex-wrap: wrap;
+        gap: 10px;
+    }
+}
+
+/* Responsive */
+@media (max-width: 760px) {
+
+    .quienes-somos {
+        padding: 40px 15px;
+    }
+
+    .descripcion-logo {
+        flex-direction: column-reverse;
+        align-items: center;
+        text-align: center;
+        margin-top: 70px;
+        margin-bottom: 10px;
+        padding: 20px;
+    }
+
+    .texto {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        max-width: 100%;
+    }
+
+    .logo {
+        width: 120px;
+    }
+
+    h2 {
+        font-size: 36px;
+    }
+
+    p {
+        font-size: 20px;
+        line-height: 24px;
+    }
+
+    .integrantes-scroll {
+        padding: 40px 55px;
+    }
+
+    .integrante {
+        width: 260px;
+    }
+
+    .nombres {
+        padding: 20px;
+        border-radius: 15px;
+    }
+
+    .integrante h3 {
+        font-size: 25px;
+    }
+
+    .integrante p {
+        font-size: 20px;
+    }
+
+    .integrante img {
+        width: 150px;
+        margin: 40px auto 30px;
+    }
+
+
+}

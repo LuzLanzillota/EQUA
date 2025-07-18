@@ -1,0 +1,62 @@
+.h1-web{
+    font-family: "Sora", sans-serif;
+    font-weight: 800;
+    font-size: 98px;
+    color: #EA6AFF;
+    margin-bottom: 40px;
+}
+.titulo-imagen{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-content: center;
+    align-items: center;
+}
+.imagensimbolo{
+    display: flex;
+    justify-content: center;
+}
+.imagensimbolo img{
+    width: 150px;
+    margin-bottom: 80px;
+}
+.p-web{
+    color: rgb(255, 255, 255);
+    font-family: 'League Spartan', sans-serif;
+    font-weight: 200;
+    font-size: 28px;
+
+}
+.imgweb{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 50px;
+}
+.imgweb img{
+    width: 60%;
+}
+.buton-web{
+    background-color: #EA6AFF;
+    color: black;
+    padding: 8px 20px;
+    font-weight: 600;
+    border: none;
+    border-radius: 30px;
+    margin-top: 20px;
+    margin-bottom: 40px;
+}
+
+.contenedor-web {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+.imgs {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}

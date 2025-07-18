@@ -1,0 +1,209 @@
+/* -------- RESET -------- */
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+/* -------- ESTILOS BASE -------- */
+body {
+    background-color: #000;
+    color: rgb(255, 255, 255);
+    font-family: 'League Spartan', sans-serif;
+}
+
+.header-portfolio {
+    text-align: center;
+    padding-bottom: 150px;
+    padding-top: 60px;
+}
+
+.logo-container {
+    display: inline-block;
+    text-align: center;
+}
+
+.barra-img {
+    width: 85%;
+    height: auto;
+    display: block;
+    margin: 5px auto 0;
+}
+
+.main-portfolio {
+    width: 100%;
+    margin: 0 auto;
+    padding-bottom: 80px;
+}
+.main-portfolio a{
+    text-decoration: none;
+    color: inherit;
+}
+.card-motion {
+    position: relative;
+    background-color: transparent;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    margin: 60px auto;
+    padding: 75px 80px;
+    max-width: 950px;
+    overflow: hidden;
+    border-top: 1px solid #444;
+    font-size: 22px;
+}
+
+.card-modelado {
+    position: relative;
+    background-color: transparent;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    margin: 60px auto;
+    padding: 75px 80px;
+    max-width: 950px;
+    overflow: hidden;
+    border-top: 1px solid #444;
+    font-size: 22px;
+}
+
+.card-branding {
+    position: relative;
+    background-color: transparent;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    margin: 60px auto;
+    padding: 75px 80px;
+    max-width: 950px;
+    overflow: hidden;
+    border-top: 1px solid #444;
+    font-size: 22px;
+}
+
+.card-web {
+    position: relative;
+    background-color: transparent;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    margin: 60px auto;
+    padding: 75px 80px;
+    max-width: 950px;
+    overflow: hidden;
+    border-top: 1px solid #444;
+    font-size: 22px;
+}
+
+.contenido-motion {
+    background-color: #2e2e2e; /* Gris oscuro como en la burbuja */
+    color: white;
+    border-radius: 90px;
+    padding: 10px 40px;
+    max-width: 600px;
+    z-index: 1;
+    margin-left: 110px;
+}
+
+.contenido-modelado {
+    background-color: #2e2e2e; /* Gris oscuro como en la burbuja */
+    color: white;
+    border-radius: 90px;
+    padding: 10px 40px;
+    text-align: right;
+    margin-left: auto;
+    margin-right: 30px;
+    margin-top: 34px;
+}
+
+.contenido-branding {
+    background-color: #2e2e2e; /* Gris oscuro como en la burbuja */
+    color: white;
+    border-radius: 90px;
+    padding: 10px 40px;
+    text-align: left;
+    margin-left: 110px;
+}
+
+.contenido-web {
+    background-color: #2e2e2e; /* Gris oscuro como en la burbuja */
+    color: white;
+    border-radius: 90px;
+    padding: 10px 40px;
+    text-align: right;
+    margin-left: auto;
+    margin-right: 100px;
+}
+
+.img-superpuesta {
+    position: absolute;
+    z-index: 2;
+    width: 210px;
+    object-fit: contain;
+    top: 0;
+    padding-top: 30px;
+}
+
+.izquierda {
+    left: 0;
+}
+
+.derecha {
+    right: 0;
+}
+
+/* -------- BOTÓN VER REEL -------- */
+.reel-container {
+    text-align: center;
+    margin-top: 150px;
+}
+
+.boton-reel {
+    padding: 10px 20px;
+    background-color: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
+    border: none;
+    font-weight: bold;
+    cursor: pointer;
+    font-family: 'Sora', sans-serif;
+    font-size: 25px;
+}
+
+/* -------- MODAL VIDEO -------- */
+.modal {
+    display: none;
+    position: fixed;
+    z-index: 10;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.8);
+}
+
+.modal-contenido {
+    margin: 10% auto;
+    padding: 20px;
+    width: 90%;
+    max-width: 600px;
+    text-align: center;
+    border-radius: 10px;
+}
+
+video {
+    width: 100%;
+    height: auto;
+}
+
+.cerrar {
+    color: white;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+/* -------- ANIMACIÓN SCROLL -------- */
+.p-port{
+    color: #ffff;
+}

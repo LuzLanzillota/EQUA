@@ -1,0 +1,85 @@
+body{
+    background-color: white;
+}
+
+.trescaartas{
+    display: flex;
+    gap: -150px; /* Ajusta el espacio entre las cartas */
+    flex-wrap: wrap;
+    margin-left: 200px;
+    margin-top: 40px;
+}
+.imagencarta2 {
+    display: flex;
+    justify-content: center;
+    gap: 20px; /* Ajusta el espacio entre las cartas */
+    flex-wrap: wrap;
+    margin-left: 300px;
+    margin-top: -680px;
+}
+.c
+.imagencarta,
+.imagencarta2 div {
+    flex: 0 1 auto;
+}
+
+.imagencarta img,
+.imagencarta2 img {
+    width: 450px; /* o lo que se adapte mejor al diseño */
+    margin: 0;
+}
+
+
+.titulo-carta {
+    font-family: "Sora", sans-serif;
+    font-weight: 800;
+    font-size: 50px;
+    margin-left: 130px;
+    color: black;
+    width: 800px;
+}
+.servicios{
+    margin-left: 130px;
+    color: black;
+    font-family: 'League Spartan', sans-serif;
+    font-weight: 200;
+    font-size: 28px;
+}
+.carta-animada {
+    animation: aparecer 0.10s ease-out forwards;
+    opacity: 0; /* oculto inicialmente */
+}
+
+/* Delays para animaciones escalonadas */
+.delay-1 {
+    transition-delay: 0.1s;
+}
+.delay-2 {
+    transition-delay: 0.5s;
+}
+.delay-3 {
+    transition-delay: 0.9s;
+}
+.delay-4 {
+    transition-delay: 1.3s;
+}
+.delay-5 {
+    transition-delay: 1.7s;
+}
+.delay-6 {
+    transition-delay: 2.1s;
+}
+
+
+.carta-animada {
+    opacity: 0;
+    transform: translateY(250px) scale(0.95);
+transition: opacity 0.9s ease-out, transform 0.9s ease-out;
+
+
+}
+
+.carta-animada.visible {
+    opacity: 1;
+    transform: translateY(0) scale(1);
+}
