@@ -32,7 +32,7 @@ body {
     justify-content: center;
     align-items: flex-start;
     flex-wrap: wrap;
-    gap: 60px 30px; /* Espaciado vertical y horizontal */
+    gap: 60px 30px; 
     padding: 0 80px;
 }
 

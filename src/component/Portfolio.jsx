@@ -42,6 +42,7 @@ const Portfolio = () => {
             </header>
 
             <main className="main-portfolio">
+                <Link to='/motion'>
                     <section className="card-motion fade-in">
                         <div className="contenido-motion">
                             <p>
@@ -51,7 +52,7 @@ const Portfolio = () => {
                         </div>
                         <img src="/images/MotionGraphics.png" className="img-superpuesta izquierda" alt="Motion" />
                     </section>
-        
+        </Link>
                     <section className="card-modelado fade-in">
                         <div className="contenido-modelado">
                             <p>Desarrollamos modelos 3D de alta calidad que dan vida a tus ideas.</p>

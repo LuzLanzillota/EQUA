@@ -1,0 +1,59 @@
+.motion-container {
+    position: relative;
+    height: 100vh;
+    background-color: black;
+}
+
+.boton-atras {
+    position: absolute;
+    top: 22%;
+    left: 80px;
+    transform: translateY(-50%);
+    background: none;
+    border: none;
+    cursor: pointer;
+    padding: 0;
+    z-index: 10;
+}
+.boton-atras img {
+    width: 20px;
+    height: auto;
+    transition: transform 0.2s ease;
+}
+
+.boton-atras:hover img {
+    transform: scale(1.2);
+}
+
+
+
+.titulo-imagen {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;    
+    align-items: center;         
+    height: 100vh;               
+    text-align: center;          
+}
+
+.h1-motion {
+    font-family: "Sora", sans-serif;
+    font-weight: 800;
+    font-size: 98px;
+    color: #D4FF33;
+    margin-bottom: 40px;
+    line-height: 1.1;
+}
+
+.imagensimbolo{
+    display: flex;
+    justify-content: center;
+}
+.imagensimbolo img{
+    width: 150px;
+    margin-bottom: 80px;
+}
+.div-motion{
+    display: flex;
+    justify-content: center;
+}

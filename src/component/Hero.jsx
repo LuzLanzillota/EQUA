@@ -1,5 +1,5 @@
-import React from 'react';
 import './Hero.css';
+import { Link } from "react-router-dom";
 
 const Hero = () => {
     return (
@@ -7,9 +7,9 @@ const Hero = () => {
             <div className="hero-card">
                 <div className="hero-top">
                     <img src="/images/Pensando.png" alt="Pensando distinto nos encontramos" className="hero-text-img" />
-                    <a href="#sobre-nosotras" className="nav-link">
+                    <Link to="/quienessomos" className="nav-link">
                         <img src="/images/sobrenosotros.png" alt="Sobre Nosotras" />
-                    </a>
+                    </Link>
                 </div>
                                     <div className="forma-azul">
                         <img src="/images/circulo.png" alt="Decorativo azul" />

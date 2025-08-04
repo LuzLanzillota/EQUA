@@ -9,6 +9,7 @@ import Quienessomos from './component/Quienessomos';
 import Portfolio from './component/Portfolio';
 import DisenioWeb from './component/DisenioWeb';
 import Branding from './component/Branding';
+import Motion from './component/Motion';
 
 
 
@@ -25,6 +26,7 @@ function App() {
           <Route path="/quienessomos" element={<Quienessomos/>} />
           <Route path="/branding" element={<Branding/>} />
           <Route path="/diseñoweb" element={<DisenioWeb/>} />
+          <Route path="/motion" element={<Motion/>} />
           {/* <Route path="/contacto" element={} />  */}
         </Routes>
     </BrowserRouter>
