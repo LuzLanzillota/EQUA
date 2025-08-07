@@ -1,0 +1,19 @@
+.h2-laspepas{
+    color: var(--COLOR-PRINCIPAL-TIPOGRAFIA);
+}
+.p-de-motionp{
+    font-family: 'League Spartan', sans-serif;
+    font-weight: lighter;
+    color: var(--COLOR-PRINCIPAL-TIPOGRAFIA);
+}
+.img-motionp {
+    width: 50%;
+    border-radius: 10px;
+}
+.img-motionp img {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+    margin-top: 40px;
+    margin-bottom: 40px;
+}

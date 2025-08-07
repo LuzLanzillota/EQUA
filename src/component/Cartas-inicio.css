@@ -35,12 +35,12 @@ body{
     font-weight: 800;
     font-size: 50px;
     margin-left: 130px;
-    color: black;
+    color: var(--COLOR-SECUNDARIA-TIPOGRAFIA);
     width: 800px;
 }
 .servicios{
     margin-left: 130px;
-    color: black;
+    color: var(--COLOR-SECUNDARIA-TIPOGRAFIA);
     font-family: 'League Spartan', sans-serif;
     font-weight: 200;
     font-size: 28px;

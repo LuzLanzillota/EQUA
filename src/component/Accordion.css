@@ -1,5 +1,5 @@
 .bg-fluo {
-    background-color: #D8FF00 !important;
+    background-color: var(--COLOR-PRINCIPAL-MOTION) !important;
 }
 
 .accordion-custom .btn:hover {
@@ -9,7 +9,7 @@
 
 
 .bg-fluo {
-    background-color: #dbff00 !important;
+    background-color: var(--COLOR-PRINCIPAL-MOTION) !important;
 }
 
 

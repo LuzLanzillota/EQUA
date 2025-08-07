@@ -1,16 +1,25 @@
 import { Link } from "react-router-dom";
 import './DiseniaWeb.css';
 import Footer from './Footer';
+import { useNavigate } from "react-router-dom";
 
 function DisenioWeb() {
+    const navigate = useNavigate(); 
     return (
         <div>
+            <div className='disenio-web'>
+            <button className="boton-atras" onClick={() => navigate(-1)}>
+                <span className="material-symbols-outlined">
+                    arrow_back_ios
+                </span>
+            </button>
             <div className='titulo-imagen'>
                 <h1 className='h1-web'>DISEÑO WEB</h1>
                 <div className='imagensimbolo'>
                     <img src="\images\forma3-inicio.png" alt="forma" />
                 </div>
-                <p className='p-web'>Desde branding hasta diseño de webs, equa lo hace realidad.</p>
+                </div>
+                <p className='branding-subtitle'>Desde branding hasta diseño de webs, equa lo hace realidad.</p>
             </div>
             <div className="contenedor-web">
                 

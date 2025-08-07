@@ -1,11 +1,11 @@
 body {
   background-color: #000;
-  color: white;
+  color: var(--COLOR-SECUNDARIA-TIPOGRAFIA);
   font-family: 'League Spartan', sans-serif;
 }
 
 .branding-section {
-  padding: 0 20px;
+  padding: 0 10px;
 
 }
 
@@ -14,11 +14,12 @@ body {
   font-weight: bold;
   font-size: 98px;
   color: #b3f4ff;
+  margin-top: 30px;
   margin-bottom: 40px;
 }
 
 .branding-logo img{
-    width: 150px;
+    width: 100px;
     margin-bottom: 80px;
 }
 
@@ -44,7 +45,7 @@ body {
 .branding-card {
   position: relative;
   width: 350px;
-  height: 540px; /* ← le damos una altura fija */
+  height: 540px;
   border-radius: 20px;
   overflow: hidden;
   transition: transform 0.3s ease;
@@ -74,7 +75,7 @@ body {
   font-weight: bold;
   padding: 4px 8px;
   border-radius: 10px;
-  background-color: #D8F900;
+  background-color: var( --COLOR-PRINCIPAL-MOTION);
   color: #000;
   font-family: 'Sora', sans-serif;
   z-index: 2;
@@ -96,7 +97,7 @@ body {
   font-family: 'Sora', sans-serif;
   font-size: 20px;
   font-weight: 800;
-  color: white;
+  color: var(--COLOR-PRINCIPAL-TIPOGRAFIA);
   margin: 0 0 6px;
   text-transform: uppercase;
 }

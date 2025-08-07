@@ -18,6 +18,10 @@ function NavBar(props) {
                     <li><NavLink to="/branding"></NavLink></li>
                     <li><NavLink to="/diseñoweb"></NavLink></li>
                     <li><NavLink to="/motion"></NavLink></li>
+                    <li><NavLink to="/motion-LasPepas"></NavLink></li>
+                    <li><NavLink to="/motion-Nike"></NavLink></li>
+                    <li><NavLink to="/motion-Charly"></NavLink></li>
+                    <li><NavLink to="/motion-BSAS"></NavLink></li>
                 </ul>
 
             </nav>

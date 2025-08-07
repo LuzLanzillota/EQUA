@@ -1,6 +1,6 @@
 import "./Branding.css";
 import Footer from "./Footer";
-
+import { useNavigate } from "react-router-dom";
 const Branding = () => {
     const proyectos = [
         {
@@ -36,11 +36,17 @@ const Branding = () => {
             link: "kai.html",
         },
     ];
-
+    const navigate = useNavigate();
     return (
         <div className="branding-container">
         <section className="branding-section">
+                        <button className="boton-atras" onClick={() => navigate(-1)}>
+                <span className="material-symbols-outlined">
+                    arrow_back_ios
+                </span>
+            </button>
             <div className="titulo-imagen">
+                
             <h1 className="branding-title">BRANDING</h1>
             <div className="branding-logo"><img src="\images\logoBranding.png" alt="" /></div>
             </div>

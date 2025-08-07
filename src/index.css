@@ -2,6 +2,13 @@
   text-rendering: optimizeLegibility;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  --COLOR-PRINCIPAL-WEB:  #EA6AFF;
+  --COLOR-PRINCIPAL-BRANDING:  #ADE6ED;
+  --COLOR-PRINCIPAL-MOTION:  #D4FF33;
+  --COLOR-PRINCIPAL-MODELADO-3D:  #3A39FF;
+  --COLOR-PRINCIPAL-TIPOGRAFIA:  #ffffff;
+  --COLOR-SECUNDARIA-TIPOGRAFIA:  #000000;
+
 }
 
 

@@ -1,0 +1,141 @@
+body {
+    line-height: 1.4;
+    margin: 0;
+    padding: 0;
+}
+
+form {
+    max-width: 100%;
+    display: flex;
+    gap: 40px;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+
+.formulario-contacto {
+    padding: 60px 20px;
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+.formulario-contacto h1 {
+    font-family: 'League Spartan', sans-serif;
+    font-size: 28px;
+    font-weight: 900;
+    color: #6022ea;
+    margin-bottom: 40px;
+}
+
+.form-left,
+.form-right {
+    flex: 1;
+    min-width: 280px;
+    max-width: 420px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    font-size: 20px;
+    color: white;
+}
+
+.form-right p {
+    margin: 0;
+    font-size: 20px;
+    font-family: 'League Spartan', sans-serif;
+    color: white;
+}
+
+.radio-option {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    cursor: pointer;
+    font-family: 'League Spartan', sans-serif;
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+.radio-option input[type="radio"] {
+    display: none;
+}
+
+.radio-dot {
+    width: 14px;
+    height: 14px;
+    border: 2px solid #6022ea;
+    border-radius: 50%;
+    display: inline-block;
+    position: relative;
+}
+
+.radio-option input[type="radio"]:checked+.radio-dot {
+    background-color: #6022ea;
+}
+
+input,
+textarea {
+    padding: 12px 18px;
+    border: none;
+    border-radius: 20px;
+    background-color: transparent;
+    color: white;
+    box-shadow: 0 4px 10px #6022ea;
+    outline: none;
+    font-family: 'League Spartan', sans-serif;
+    font-size: 20px;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+textarea {
+    min-height: 140px;
+    resize: vertical;
+}
+
+.buto {
+    width: fit-content;
+    padding: 12px 24px;
+    background: #6022ea;
+    color: white;
+    border: none;
+    border-radius: 30px;
+    font-weight: bold;
+    cursor: pointer;
+    box-shadow: 0 4px 12px #6022ea;
+    font-size: 20px;
+    margin-top: 10px;
+    align-self: flex-start;
+}
+
+.mensaje-enviado {
+    background-color: #ecff2f;
+    color: black;
+    font-family: 'League Spartan', sans-serif;
+    font-size: 18px;
+    border-radius: 12px;
+    padding: 15px 20px;
+    margin-top: 25px;
+    max-width: 100%;
+    font-weight: 400;
+    box-shadow: 0 0 12px #ecff2f88;
+    animation: aparecer 0.4s ease;
+}
+
+.mensaje-enviado strong {
+    font-weight: 800;
+    display: block;
+    margin-bottom: 5px;
+}
+
+@keyframes aparecer {
+    from {
+        opacity: 0;
+        transform: translateY(-10px);
+    }
+
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
