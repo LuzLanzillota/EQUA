@@ -52,7 +52,7 @@ export default function Accordion() {
                             >
                                 <span className="pregunta">{item.question}</span>
                                 <img
-                                    src={isActive ? "/images/icono2.png" : "/images/icono.png"}
+                                    src={isActive ? "/images/iconos/icono2.png" : "/images/iconos/icono.png"}
                                     alt="icono estrella"
                                     className={`icon-img ${isActive ? "rotate" : ""}`}
                                 />

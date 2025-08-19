@@ -16,7 +16,7 @@ function DisenioWeb() {
             <div className='titulo-imagen'>
                 <h1 className='h1-web'>DISEÑO WEB</h1>
                 <div className='imagensimbolo'>
-                    <img src="\images\forma3-inicio.png" alt="forma" />
+                    <img src="\images/formas\forma3-inicio.png" alt="forma" />
                 </div>
                 </div>
                 <p className='branding-subtitle'>Desde branding hasta diseño de webs, equa lo hace realidad.</p>
@@ -25,17 +25,17 @@ function DisenioWeb() {
                 
                 <div className='imgweb'>
                     <Link to="https://oh-tea.netlify.app/"target="_blank" className="imgs" >
-                    <img src="\images\web1.png" alt="" /></Link>
+                    <img src="\images/web\web1.png" alt="" /></Link>
                     <Link to="https://oh-tea.netlify.app/"target="_blank"><button className="buton-web">Ver</button></Link>
                 </div>
                 <div className='imgweb'>
                     <Link to="https://may-belli-ne.netlify.app/" target="_blank" className="imgs">
-                    <img src="\images\web2.png" alt="" /></Link>
+                    <img src="\images/web\web2.png" alt="" /></Link>
                     <Link to="https://may-belli-ne.netlify.app/"target="_blank"><button className="buton-web">Ver</button></Link>
                     </div>
                 <div className='imgweb'>
                     <Link to="https://ba-kery.netlify.app/"  target="_blank" className="imgs">
-                    <img src="\images\web3.png" alt="" /></Link>
+                    <img src="\images/web\web3.png" alt="" /></Link>
                     <Link to="https://ba-kery.netlify.app/" target="_blank" ><button className="buton-web">Ver</button></Link>
                     
                 </div>

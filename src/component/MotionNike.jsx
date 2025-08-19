@@ -16,14 +16,14 @@ function MotionNike() {
             <div className='titulo-imagen'>
                 <h1 className='h1-motion'>MOTION <br /> GRAPHICS</h1>
                 <div className='imagensimbolo'>
-                    <img src="/images/circuloMotion.png" alt="forma" />
+                    <img src="/images/formas/circuloMotion.png" alt="forma" />
                 </div>
                 <div>
                     <h2 className="h2-laspepas">MOTION DE NIKE</h2>
                     <p className="p-de-motionp">Animación hecha en after acerca de la marca deportiva Nike</p>
                 </div>
                 <div className="img-motionp">
-                    <img src="/images/motionnike.png" alt="Collage Flores" />
+                    <img src="/images/motions/motionnike.png" alt="Collage Flores" />
                     </div>
                 </div>    
             <Footer />

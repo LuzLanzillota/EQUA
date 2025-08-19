@@ -16,7 +16,7 @@ function Motion() {
             <div className='titulo-imagen'>
                 <h1 className='h1-motion'>MOTION <br /> GRAPHICS</h1>
                 <div className='imagensimbolo'>
-                    <img src="/images/circuloMotion.png" alt="forma" />
+                    <img src="/images/formas/circuloMotion.png" alt="forma" />
                 </div>
                 <p className="p-de-motionp">Crea magia SVG. Transforma, dibuja, anima y mucho más.</p>
                 <div>
@@ -29,10 +29,10 @@ function Motion() {
 
             </div>
             <div class="container-motion">
-                <div class="foto1"><Link to="/motion-LasPepas"><img src="/images/foto-1.png" alt="" /></Link></div>
-                <div class="foto2"><Link to="/motion-BSAS"><img src="/images/foto-2.png" alt="" /></Link></div>
-                <div class="foto3"><Link to="/motion-Charly"><img src="/images/foto-3.png" alt="" /></Link></div>
-                <div class="foto4"><Link to="/motion-Nike"><img src="/images/foto-4.png" alt="" /></Link></div>
+                <div class="foto1"><Link to="/motion-LasPepas"><img src="/images/motions/fotomotions/foto-1.png" alt="" /></Link></div>
+                <div class="foto2"><Link to="/motion-BSAS"><img src="/images/motions/fotomotions/foto-2.png" alt="" /></Link></div>
+                <div class="foto3"><Link to="/motion-Charly"><img src="/images/motions/fotomotions/foto-3.png" alt="" /></Link></div>
+                <div class="foto4"><Link to="/motion-Nike"><img src="/images/motions/fotomotions/foto-4.png" alt="" /></Link></div>
             </div>
             <Footer />
         </div>

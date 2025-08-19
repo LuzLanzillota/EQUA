@@ -17,6 +17,7 @@ function NavBar(props) {
                     <li><NavLink to="/contacto">CONTACTO</NavLink></li>
                     <li><NavLink to="/branding"></NavLink></li>
                     <li><NavLink to="/diseñoweb"></NavLink></li>
+                    <li><NavLink to="/modelado-3d"></NavLink></li>
                     <li><NavLink to="/motion"></NavLink></li>
                     <li><NavLink to="/motion-LasPepas"></NavLink></li>
                     <li><NavLink to="/motion-Nike"></NavLink></li>

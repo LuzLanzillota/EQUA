@@ -50,15 +50,17 @@ const Portfolio = () => {
                                 impacto visual en tu audiencia.
                             </p>
                         </div>
-                        <img src="/images/MotionGraphics.png" className="img-superpuesta izquierda" alt="Motion" />
+                        <img src="/images/motions/MotionGraphics.png" className="img-superpuesta izquierda" alt="Motion" />
                     </section>
         </Link>
+                <Link to='/modelado-3d'>
                     <section className="card-modelado fade-in">
                         <div className="contenido-modelado">
                             <p>Desarrollamos modelos 3D de alta calidad que dan vida a tus ideas.</p>
                         </div>
-                        <img src="/images/Modelaodo3D.png" className="img-superpuesta derecha" alt="Modelado 3D" />
+                        <img src="/images/3D/Modelaodo3D.png" className="img-superpuesta derecha" alt="Modelado 3D" />
                     </section>
+                </Link>
                     <Link to='/branding'>
                     <section className="card-branding fade-in">
                         <div className="contenido-branding">
@@ -66,7 +68,7 @@ const Portfolio = () => {
                                 Creamos una identidad de marca de gran impacto para su mercado objetivo y destacable entre la competencia.
                             </p>
                         </div>
-                        <img src="/images/Branding.png" className="img-superpuesta izquierda" alt="Branding" />
+                        <img src="/images/branding/Branding.png" className="img-superpuesta izquierda" alt="Branding" />
                     </section></Link>
                     <Link to='/diseñoweb'>
                     <section className="card-web fade-in">
@@ -76,7 +78,7 @@ const Portfolio = () => {
                                 atraen a su audiencia.
                             </p>
                         </div>
-                        <img src="/images/DisenoWeb.png" className="img-superpuesta derecha" alt="Diseño Web" />
+                        <img src="/images/web/DisenoWeb.png" className="img-superpuesta derecha" alt="Diseño Web" />
                     </section>
                     </Link>
                 <div className="reel-container fade-in">

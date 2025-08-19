@@ -48,7 +48,7 @@ const Branding = () => {
             <div className="titulo-imagen">
                 
             <h1 className="branding-title">BRANDING</h1>
-            <div className="branding-logo"><img src="\images\logoBranding.png" alt="" /></div>
+            <div className="branding-logo"><img src="\images/formas\logoBranding.png" alt="" /></div>
             </div>
             <p className="branding-subtitle">
                 Si no tenés resuelta tu marca, nosotras resolvemos.
@@ -62,7 +62,7 @@ const Branding = () => {
                         key={index}
                     >
                         <img
-                            src={`images/${proyecto.imagen}`}
+                            src={`images/branding/${proyecto.imagen}`}
                             alt={proyecto.nombre}
                         />
                         <span className="card-tag">{proyecto.nombre}</span>

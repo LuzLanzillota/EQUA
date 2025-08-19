@@ -12,7 +12,7 @@ const Hero = () => {
                     </Link>
                 </div>
                                     <div className="forma-azul">
-                        <img src="/images/circulo.png" alt="Decorativo azul" />
+                        <img src="/images/formas/circulo.png" alt="Decorativo azul" />
                     </div>
                 <div className='al-lado'> <p className="descripcion">
                     Somos una agencia de diseño multimedial especializada en diseño y comunicación,

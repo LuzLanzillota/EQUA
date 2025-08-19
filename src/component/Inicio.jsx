@@ -30,15 +30,15 @@ function Inicio() {
             </div>
 
             <div className='fondo-inicio'>
-                <img src="\images\fondo.png" alt="" />
+                <img src="\images\fondos\fondo.png" alt="" />
             </div>
             <Hero />
             <div className='fondo-2'>
-                <img src="\images\fondo 2.png" alt="" />
+                <img src="\images\fondos\fondo 2.png" alt="" />
             </div>
 
             <div className='fondo-3'>
-                <img src="\images\fondo 3.png" alt="" />
+                <img src="\images\fondos\fondo 3.png" alt="" />
             </div>
             <div className="cartasinicio">
                 <Cartasinicio />

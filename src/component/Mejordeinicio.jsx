@@ -74,27 +74,27 @@ const Mejora = () => {
                         {
                             titulo: "Flowers motion",
                             descripcion: "Este es un motion que hicimos...",
-                            img: "mejor1.png"
+                            img: "/inciomejorestps/mejor1.png"
                         },
                         {
                             titulo: "Music motion",
                             descripcion: "Este es un motion que hicimos...",
-                            img: "mejor2.png"
+                            img: "/inciomejorestps/mejor2.png"
                         },
                         {
                             titulo: "Habitación 3D",
                             descripcion: "Esta es una de las habitaciones modeladas. Tocá para ver más.",
-                            img: "mejor3.png"
+                            img: "/inciomejorestps/mejor3.png"
                         },
                         {
                             titulo: "Personaje 3D",
                             descripcion: "Un personaje modelado por nosotras. Click para saber más.",
-                            img: "mejor4.png"
+                            img: "/inciomejorestps/mejor4.png"
                         },
                         {
                             titulo: "Motion",
                             descripcion: "Este es uno de nuestros mejores motions animados, hacé click para verlo.",
-                            img: "mejor5.png"
+                            img: "/inciomejorestps/mejor5.png"
                         },
                     ].map((item, i) => (
                         <div className="proyecto-card" key={i}>

@@ -39,18 +39,20 @@ body {
     max-width: 500px;
 }
 
-.h2 {
+.h2-por {
     font-family: "Sora", sans-serif;
     font-weight: 800;
     font-size: 50px;
     margin-bottom: 20px;
+    color: var(--blanco);
 }
 
-.p {
+.p-nosotras {
     font-family: 'League Spartan', sans-serif;
     font-weight: 300;
     font-size: 28px;
     line-height: 26px;
+    color: var(--blanco);
 }
 
 .logo {
@@ -170,6 +172,7 @@ h3 {
 .valor {
     max-width: 300px;
     text-align: center;
+    color: var(--blanco);
 }
 
 .valor img {

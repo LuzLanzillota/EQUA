@@ -15,6 +15,7 @@ import MotionLasPepas from './component/MotionLasPepas';
 import MotionCharly from './component/MotionCharly';
 import MotionBSAS from './component/MotionBSAS.JSX';
 import MotionNike from './component/MotionNike';
+import Modelado3d from './component/Modelado3D';
 
 
 
@@ -31,6 +32,7 @@ function App() {
           <Route path="/quienessomos" element={<Quienessomos/>} />
           <Route path="/branding" element={<Branding/>} />
           <Route path="/diseñoweb" element={<DisenioWeb/>} />
+          <Route path="/modelado-3d" element={<Modelado3d/>} />
           <Route path="/motion" element={<Motion/>} />
           <Route path="/contacto" element={<FormularioContacto/>} /> 
           <Route path="/motion-LasPepas" element={<MotionLasPepas/>} /> 

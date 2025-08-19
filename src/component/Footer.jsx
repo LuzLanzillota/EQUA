@@ -1,6 +1,7 @@
 import React from 'react';
 import './Footer.css';
 import logo from '/images/equa.png';
+import { Link } from 'react-router-dom';
 
 function Footer() {
 return (
@@ -8,7 +9,9 @@ return (
     <div className="footer-container">
         <div className="footer-left">
         <p>Empezá a trabajar con nosotros!</p>
-        <button className="contact-btn">Contactanos</button>
+        <Link to="/contacto">
+            <button className="contact-btn">Contactanos</button>
+        </Link>
         </div>
 
 

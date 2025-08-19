@@ -86,12 +86,12 @@ const Quienessomos = () => {
             <section className="integrantes-scroll">
                 <div className="scroll-container" ref={scrollRef}>
                     {[
-                        { nombre: 'Camila Urretabizcaya', rol: 'Directora de Arte', clase: 'camila', img: 'camila.png' },
-                        { nombre: 'Luz Lanzillota', rol: 'Programadora', clase: 'luz', img: 'luz.png' },
-                        { nombre: 'Malena Battista', rol: 'Project Manager', clase: 'malena', img: 'malena.png' },
-                        { nombre: 'Lucía Massigoge', rol: 'Directora Creativa', clase: 'lucia', img: 'lucia.png' },
-                        { nombre: 'Rocio Larreguy', rol: 'Estratega de Marca', clase: 'rocio', img: 'rocio.png' },
-                        { nombre: 'Federica Zago', rol: 'Diseñadora Gráfica', clase: 'federica', img: 'federica.png' },
+                        { nombre: 'Camila Urretabizcaya', rol: 'Directora de Arte', clase: 'camila', img: '/nosotras/camila.png' },
+                        { nombre: 'Luz Lanzillota', rol: 'Programadora', clase: 'luz', img: '/nosotras/luz.png' },
+                        { nombre: 'Malena Battista', rol: 'Project Manager', clase: 'malena', img: '/nosotras/malena.png' },
+                        { nombre: 'Lucía Massigoge', rol: 'Directora Creativa', clase: 'lucia', img: '/nosotras/lucia.png' },
+                        { nombre: 'Rocio Larreguy', rol: 'Estratega de Marca', clase: 'rocio', img: '/nosotras/rocio.png' },
+                        { nombre: 'Federica Zago', rol: 'Diseñadora Gráfica', clase: 'federica', img: '/nosotras/federica.png' },
                     ].map((integrante, i) => (
                         <div className="integrante" key={i}>
                             <div className={`nombres ${integrante.clase}`}>
@@ -106,17 +106,17 @@ const Quienessomos = () => {
 
             {/* Por qué Equa */}
             <section className="porque">
-                <h2 className="h2">¿POR QUÉ EQUA?</h2>
+                <h2 className="h2-por">¿POR QUÉ EQUA?</h2>
                 <div className="valores">
                     {[
-                        { titulo: 'Equilibrio', texto: 'Buscamos el balance entre opuestos para encontrar soluciones creativas y únicas.', img: 'equilibrio.png' },
-                        { titulo: 'Colaboración', texto: 'Creemos que las mejores ideas nacen cuando diferentes perspectivas se potencian entre sí.', img: 'colaboracion.png' },
-                        { titulo: 'Innovación', texto: 'Pensamos distinto para crear algo nuevo, desafiando lo establecido con ideas frescas y relevantes.', img: 'innovacion.png' },
+                        { titulo: 'Equilibrio', texto: 'Buscamos el balance entre opuestos para encontrar soluciones creativas y únicas.', img: '/iconos/equilibrio.png' },
+                        { titulo: 'Colaboración', texto: 'Creemos que las mejores ideas nacen cuando diferentes perspectivas se potencian entre sí.', img: '/iconos/colaboracion.png' },
+                        { titulo: 'Innovación', texto: 'Pensamos distinto para crear algo nuevo, desafiando lo establecido con ideas frescas y relevantes.', img: '/iconos/innovacion.png' },
                     ].map((valor, i) => (
                         <div className="valor" key={i}>
                             <img src={`/images/${valor.img}`} alt={valor.titulo} />
                             <h3>{valor.titulo}</h3>
-                            <p className="p">{valor.texto}</p>
+                            <p className="p-nosotras">{valor.texto}</p>
                         </div>
                     ))}
                 </div>
