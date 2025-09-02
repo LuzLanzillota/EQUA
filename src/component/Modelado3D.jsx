@@ -69,14 +69,14 @@ function Modelado3d() {
                 </div>
             )}
             {botonActivo === "objetos" && (
-            <div className="container-objetos">
-                <div className="imagen1"> <img src="/images/3D/1parte/1.png" alt="" /></div>
-                <div className="imagen2"> <img src="/images/3D/2parte/2.png" alt="" /></div>
-                <div className="imagen3"> <img src="/images/3D/2parte/3.png" alt="" /></div>
-                <div className="imagen4"> <img src="/images/3D/2parte/4.png" alt="" /></div>
-                <div className="imagen5"> <img src="/images/3D/2parte/5.png" alt="" /></div>
-                <div className="imagen6"><img src="/images/3D/1parte/5.png" alt="" /></div>
-            </div>
+                <div className="container-objetos">
+                    <div className="imagen1"> <img src="/images/3D/1parte/1.png" alt="" /></div>
+                    <div className="imagen2"> <img src="/images/3D/2parte/2.png" alt="" /></div>
+                    <div className="imagen3"> <img src="/images/3D/2parte/3.png" alt="" /></div>
+                    <div className="imagen4"> <img src="/images/3D/2parte/4.png" alt="" /></div>
+                    <div className="imagen5"> <img src="/images/3D/2parte/5.png" alt="" /></div>
+                    <div className="imagen6"><img src="/images/3D/1parte/5.png" alt="" /></div>
+                </div>
             )}
             {botonActivo === "escenarios" && (
                 <div className="container-escenarios">
@@ -92,9 +92,13 @@ function Modelado3d() {
                     <div className="imagen3"><img src="/images/3D/4parte/3.png" alt="" /></div>
                     <div className="imagen4"><img src="/images/3D/4parte/4.png" alt="" /></div>
                     <div className="imagen5"><img src="/images/3D/4parte/5.png" alt="" /></div>
-                    <div className="imagen6"><img src="/images/3D/4parte/6.png" alt="" /></div>
-                    </div>
-                )}
+                    <div className="imagen6">
+                        <Link to="/modelado3D-Hada">
+                        <img src="/images/3D/4parte/6.png" alt="" />
+                        </Link>
+                        </div>
+                </div>
+            )}
             <Footer />
         </div>
     );

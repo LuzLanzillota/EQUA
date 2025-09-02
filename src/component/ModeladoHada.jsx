@@ -1,38 +1,36 @@
-import { useEffect } from "react";
 import "./ModeladoHada.css";
+import {useNavigate} from "react-router-dom";
 import Footer from "./Footer";
 
 function ModeladoHada() {
-    useEffect(() => {
-        const script = document.createElement("script");
-        script.type = "module";
-        script.src = "https://ajax.googleapis.com/ajax/libs/model-viewer/4.0.0/model-viewer.min.js";
-        document.body.appendChild(script);
-
-        return () => {
-            document.body.removeChild(script);
-        };
-    }, []);
-
+    const navigate = useNavigate();
     return (
-        <div className="modelado3d-container">
-            <model-viewer
-                src="/images/HADA-PARA-WEB.glb"
-                ar
-                ar-modes="webxr scene-viewer quick-look"
-                camera-controls
-                tone-mapping="neutral"
-                poster="poster.webp"
-                shadow-intensity="1"
-            >
-                <div className="progress-bar hide" slot="progress-bar">
-                    <div className="update-bar"></div>
-                </div>
-                <button slot="ar-button" id="ar-button">
-                    View in your space
-                </button>
-            </model-viewer>
+        <div>
+            <h1 className="h1-hada">Modelado 3D: Hada</h1>
+                        <button className="boton-atras" onClick={() => navigate(-1)}>
+                <span className="material-symbols-outlined">
+                    arrow_back_ios
+                </span>
+            </button>
+            <div className="modelado3d-container">
+                <model-viewer
+                    src="/images/3D/HADA-PARA-WEB.glb"
+                    ar
+                    ar-modes="webxr scene-viewer quick-look"
+                    camera-controls
+                    disable-zoom
+                    tone-mapping="neutral"
+                    shadow-intensity="1"
+                >
+                    <div className="progress-bar hide" slot="progress-bar">
+                        <div className="update-bar"></div>
+                    </div>
+                    <button slot="ar-button" id="ar-button">
+                        View in your space
+                    </button>
+                </model-viewer>
 
+            </div>
             <Footer />
         </div>
     );

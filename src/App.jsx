@@ -16,6 +16,7 @@ import MotionCharly from './component/MotionCharly';
 import MotionBSAS from './component/MotionBSAS.JSX';
 import MotionNike from './component/MotionNike';
 import Modelado3d from './component/Modelado3D';
+import ModeladoHada from './component/ModeladoHada';
 
 
 
@@ -39,6 +40,7 @@ function App() {
           <Route path="/motion-Nike" element={<MotionNike/>} /> 
           <Route path="/motion-BSAS" element={<MotionBSAS/>} /> 
           <Route path="/motion-Charly" element={<MotionCharly/>} /> 
+          <Route path="/modelado3D-Hada" element={<ModeladoHada/>} /> 
         </Routes>
     </BrowserRouter>
 
