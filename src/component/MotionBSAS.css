@@ -1,5 +1,20 @@
-.h2-laspepas{
+.h2-laspepas {
     font-family: "Sora", sans-serif;
     font-weight: 800;
     font-size: 70px;
+}
+.video-bsas{
+    margin-top: 50px;
+    margin-bottom: 100px;
+    border: 4px solid #d6ff00;
+    border-radius: 35px;
+}
+.video-bsas video {
+    width: 100%;
+    max-width: 1000px;
+    /* tamaño máximo */
+    aspect-ratio: 16/9;
+    display: block;
+    margin: 0 auto;
+    border-radius: 30px;
 }

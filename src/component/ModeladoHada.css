@@ -17,3 +17,8 @@ model-viewer {
     margin-left: 140px;
   color: var(--COLOR-PRINCIPAL-TIPOGRAFIA);
 }
+
+.modelado3d-container {
+      margin-top: -50px;
+  margin-bottom: 50px;
+}

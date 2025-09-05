@@ -17,6 +17,10 @@ import MotionBSAS from './component/MotionBSAS.JSX';
 import MotionNike from './component/MotionNike';
 import Modelado3d from './component/Modelado3D';
 import ModeladoHada from './component/ModeladoHada';
+import ModeladoMegafono from './component/ModeladoMegafono';
+import ModeladoGameboy from './component/ModeladoGameboy';
+import ModeladoCamara from './component/ModeladoCamara';
+import ModeladoSotano from './component/ModeladoSotano';
 
 
 
@@ -41,6 +45,10 @@ function App() {
           <Route path="/motion-BSAS" element={<MotionBSAS/>} /> 
           <Route path="/motion-Charly" element={<MotionCharly/>} /> 
           <Route path="/modelado3D-Hada" element={<ModeladoHada/>} /> 
+          <Route path="/modelado3D-Megafono" element={<ModeladoMegafono/>} /> 
+          <Route path="/modelado3D-Gameboy" element={<ModeladoGameboy/>} /> 
+          <Route path="/modelado3D-Camara" element={<ModeladoCamara/>} /> 
+          <Route path="/modelado3D-Sotano" element={<ModeladoSotano/>} /> 
         </Routes>
     </BrowserRouter>
 

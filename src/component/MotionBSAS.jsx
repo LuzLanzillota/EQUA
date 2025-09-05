@@ -1,5 +1,5 @@
-import { useNavigate,Link } from "react-router-dom";
-import "./MotionLasPepas.css";
+import { useNavigate, Link } from "react-router-dom";
+import "./MotionBSAS.css";
 import Footer from "./Footer";
 
 function MotionBSAS() {
@@ -12,7 +12,7 @@ function MotionBSAS() {
                     arrow_back_ios
                 </span>
             </button>
-            
+
             <div className='titulo-imagen'>
                 <h1 className='h1-motion'>MOTION <br /> GRAPHICS</h1>
                 <div className='imagensimbolo'>
@@ -22,10 +22,13 @@ function MotionBSAS() {
                     <h2 className="h2-laspepas">MOTION BSAS</h2>
                     <p className="p-de-motionp">Animación hecha en after acerca de la ciudad de Buenos Aires</p>
                 </div>
-                <div className="img-motionp">
-                    <img src="/images/motions/motionbsas.png" alt="Collage Flores" />
-                    </div>
-                </div>    
+                <div class="video-bsas">
+                    <video controls>
+                        <source src="/images/motions/videos/video-bsas.mp4" type="video/mp4"/>
+                            Tu navegador no soporta este video.
+                    </video>
+                </div>
+            </div>
             <Footer />
         </div>
     );

@@ -55,7 +55,8 @@ function Modelado3d() {
                         <img src="/images/3D/1parte/2.png" alt="" />
                     </div>
                     <div className="imagen3">
-                        <img src="/images/3D/1parte/3.png" alt="" />
+                        <Link to="/modelado3D-Sotano">
+                        <img src="/images/3D/1parte/3.png" alt="" /></Link>
                     </div>
                     <div className="imagen4">
                         <img src="/images/3D/1parte/4.png" alt="" />
@@ -71,10 +72,10 @@ function Modelado3d() {
             {botonActivo === "objetos" && (
                 <div className="container-objetos">
                     <div className="imagen1"> <img src="/images/3D/1parte/1.png" alt="" /></div>
-                    <div className="imagen2"> <img src="/images/3D/2parte/2.png" alt="" /></div>
-                    <div className="imagen3"> <img src="/images/3D/2parte/3.png" alt="" /></div>
+                    <div className="imagen2"><Link to= "/modelado3D-Gameboy"> <img src="/images/3D/2parte/2.png" alt="" /></Link></div>
+                    <div className="imagen3"><Link to= "/modelado3D-Camara"> <img src="/images/3D/2parte/3.png" alt="" /></Link></div>
                     <div className="imagen4"> <img src="/images/3D/2parte/4.png" alt="" /></div>
-                    <div className="imagen5"> <img src="/images/3D/2parte/5.png" alt="" /></div>
+                    <div className="imagen5"><Link to="/modelado3D-Megafono"> <img src="/images/3D/2parte/5.png" alt="" /></Link></div>
                     <div className="imagen6"><img src="/images/3D/1parte/5.png" alt="" /></div>
                 </div>
             )}
@@ -82,7 +83,7 @@ function Modelado3d() {
                 <div className="container-escenarios">
                     <div className="imagen1"><img className="img-wrapper" src="/images/3D/3parte/1.png" alt="" /></div>
                     <div className="imagen2"><img className="img-wrapper" src="/images/3D/3parte/2.png" alt="" /></div>
-                    <div className="imagen3"><img src="/images/3D/1parte/3.png" alt="" /></div>
+                    <div className="imagen3"><Link to="/modelado3D-Sotano"><img src="/images/3D/1parte/3.png" alt="" /></Link></div>
                 </div>
             )}
             {botonActivo === "personajes" && (

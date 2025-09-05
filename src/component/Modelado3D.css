@@ -12,7 +12,7 @@
     font-size: 98px;
     color: var(--COLOR-PRINCIPAL-MODELADO-3D);
     margin-bottom: 40px;
-    margin-top: 30px;
+    margin-top: 70px;
     line-height: 1.1;
 }
 
@@ -49,10 +49,22 @@
     border-radius: 80px;
     line-height: 1;
     cursor: pointer;
+    text-align:center ;
     transition: all 0.3s ease;
+    flex-grow: 0.001;
 }
-
-
+.buton-modelado button {
+    background: none;
+    border: none;
+    color: inherit;
+    font: inherit;
+    cursor: pointer;
+    outline: inherit;
+}
+.buton-modelado:focus {
+    outline: none;
+    box-shadow: 0 0 0 3px rgba(63, 81, 181, 0.5);
+}
 .buton-modelado.activo {
     background: #2f2fff;
     color: white;
